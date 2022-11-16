@@ -14,7 +14,7 @@ function App() {
       <Route path="/hotels" element={<HotelsList/>} />      
       </Routes>
       <Routes>
-      <Route path="/hotel/:id" element={<Hotel/>} />      
+      <Route path="/hotels/:id" element={<Hotel/>} />      
       </Routes>
     </Router>
     </>
